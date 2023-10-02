@@ -1,0 +1,221 @@
+# Copyright (C) 2023 minfolio
+# This file is distributed under the same license as the minfolio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: minfolio\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Imad Nadkar <imadnadkar@gmail.com>\n"
+"Last-Translator: Imad Nadkar <imadnadkar@gmail.com>\n"
+"POT-Creation-Date: 2023-09-13 11:12+0000\n"
+"Report-Msgid-Bugs-To: https://caliberthemes.com/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:29
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:52
+msgid "Reply"
+msgstr ""
+
+#: comments.php:58
+msgid "Previous"
+msgstr ""
+
+#: comments.php:59
+msgid "Next"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:76
+msgid "Name"
+msgstr ""
+
+#: comments.php:78
+msgid "Email"
+msgstr ""
+
+#: comments.php:80
+msgid "Website"
+msgstr ""
+
+#: comments.php:87
+msgid "Comment*"
+msgstr ""
+
+#: functions.php:80
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:169, sidebar.php:9
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:171
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: functions.php:180
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:190
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:200
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer Column 4"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: include/blog/blog-functions.php:15
+msgid ", "
+msgstr ""
+
+#: include/blog/blog-functions.php:23
+msgid "Categories"
+msgstr ""
+
+#: include/blog/blog-functions.php:56
+msgid "Posted on"
+msgstr ""
+
+#: include/blog/blog-functions.php:79, include/blog/blog-functions.php:108, include/functions/theme-functions.php:152
+msgid "Read More"
+msgstr ""
+
+#: include/functions/admin-notices.php:14
+msgid "%s - You are running an obsolete version of PHP. For your security and a proper functioning of the theme you have to upgrade it a newer version (5.6 is recommended). Please contact your hosting provider."
+msgstr ""
+
+#: include/functions/oneclick-demo-import.php:16
+msgid "Make sure that all plugins are activated."
+msgstr ""
+
+#: include/functions/theme-functions.php:149
+msgid "Blog"
+msgstr ""
+
+#: include/functions/theme-functions.php:153, template-parts/blog/layout/navigation.php:20, template-parts/blog/layout/navigation.php:12, template-parts/blog/layout/navigation.php:12
+msgid "Next Post"
+msgstr ""
+
+#: include/functions/theme-functions.php:154, template-parts/blog/layout/navigation.php:11
+msgid "Prev Post"
+msgstr ""
+
+#: include/functions/theme-functions.php:157, include/functions/theme-functions.php:493
+msgid "404"
+msgstr ""
+
+#: include/functions/theme-functions.php:158, include/functions/theme-functions.php:494
+msgid "Sorry, the page requested couldn't be found."
+msgstr ""
+
+#: include/functions/theme-functions.php:159, include/functions/theme-functions.php:521
+msgid "The page you are looking for might have been removed had its name changed or its temporarily unavailable."
+msgstr ""
+
+#: include/functions/theme-functions.php:160
+msgid "Back to Home"
+msgstr ""
+
+#: include/functions/theme-functions.php:166
+msgid "Designed by Caliberthemes."
+msgstr ""
+
+#: include/functions/theme-functions.php:167
+msgid "&#169; 2023 CaliberThemes"
+msgstr ""
+
+#: include/functions/theme-functions.php:523
+msgid "Back to home"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/blog/content/parts/content-link.php:27, template-parts/blog/content/parts/content-quote.php:27, template-parts/blog/content/parts/content.php:18, template-parts/page/content-page.php:18
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/blog/content/parts/content-none.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/blog/content/parts/content-none.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/blog/layout/archive-banner.php:32
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/blog/layout/archive-banner.php:30
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/blog/layout/footer.php:13
+msgid "Tags"
+msgstr ""
+
+#: template-parts/blog/layout/navigation.php:19, template-parts/blog/layout/navigation.php:11
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/blog/layout/pagination.php:7
+msgid "Previous page"
+msgstr ""
+
+#: template-parts/blog/layout/pagination.php:8
+msgid "Next page"
+msgstr ""
+
+#: template-parts/blog/layout/pagination.php:9
+msgid "Page"
+msgstr ""
+
+#: template-parts/header/navigation-top.php:8
+msgid "Top Menu"
+msgstr ""
+
+#: template-parts/header/site-branding.php:36, template-parts/header/site-branding.php:42
+msgid "Logo"
+msgstr ""
+
+#: template-parts/header/site-branding.php:39, template-parts/header/site-branding.php:45
+msgid "Retina Logo"
+msgstr ""
