@@ -1,0 +1,429 @@
+    <!doctype html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.vertical-tabs.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <title>Documentation</title>
+
+    </head>
+    <body>
+        <div class="doc-wrap">
+            
+            <div class="doc-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="sidebar">
+                                <ul class="nav nav-tabs tabs-left">
+                                    <li class="active"><a href="#tab1" data-toggle="tab">Getting Started</a></li>
+                                    <li><a href="#tab2" data-toggle="tab">Theme Installation</a></li>
+                                    <li><a href="#tab14" data-toggle="tab">Plugin Installation</a></li>
+                                    <li><a href="#tab15" data-toggle="tab">3rd Party Plugin Installation</a></li>
+                                    <li><a href="#tab3" data-toggle="tab">Demo Import</a></li>
+                                    <li><a href="#tab4" data-toggle="tab">Theme Updates</a></li>
+                                    <li><a href="#tab5" data-toggle="tab">Customize</a></li>
+									<li><a href="#tab12" data-toggle="tab">Color Customization</a></li>
+                                    <li><a href="#tab6" data-toggle="tab">Page & Page Builder</a></li> 
+                                    <li><a href="#tab7" data-toggle="tab">Homepage / Postpage Setup</a></li>
+                                    <li><a href="#tab8" data-toggle="tab">Menu</a></li>
+                                    <li><a href="#tab16" data-toggle="tab">Shortcodes</a></li>
+                                    <li><a href="#tab9" data-toggle="tab">Portfolio Posts</a></li>
+                                    <li><a href="#tab10" data-toggle="tab">Blog Posts</a></li>
+                                    <li><a href="#tab11" data-toggle="tab">Contact Form</a></li>
+                                    
+                                    <!-- <li><a href="#tab13" data-toggle="tab">Footer</a></li> -->
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <!-- Tab Content -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tab1">
+                                    <h1>Welcome</h1>
+                                    <p>Thank you for purchasing <b>Minfolio</b>. Before you get started, please go through the documentation. We have outlined almost all required information you need to know to use this Theme. If you have any questions that aren't covered in this documentation, please feel free to contact us.</p>
+                                    <hr>
+                                    <h2 style='font-size: 20px;font-weight: 700;'>What's included</h2>                               
+                                    
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">minfolio.zip</strong> - contains the installable WordPress theme.</p>
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">minfolio-child.zip</strong> - contains the child theme file used only for code changes.</p>
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">Documentation</strong> - contains the theme documentation.</p>
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">Licensing</strong> - License related information.</p>
+                                    <hr>
+                                    <h2 style='font-size: 20px;font-weight: 700;'>Required plugins </h2>                               
+                                    
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">Minfolio Core</strong> - The core plugin for the theme.</p>
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">Elementor</strong> - Drag & Drop page builder.</p>
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">One Click Demo Import</strong> - To import the demo data.</p>
+                                    <p style="margin-bottom: 10px"><strong style="font-weight: 500">Contact Form 7</strong> - Used to created contact form in the theme.</p>
+									<p style="margin-bottom: 10px"><strong style="font-weight: 500">Safe SVG</strong> - For uploading SVG'S.</p>
+									
+
+                                    <hr>
+                                    <h2 style='font-size: 20px;font-weight: 700;'>Theme Requirements</h2>                               
+                                    
+                                    <p style="margin-bottom:20px">You must be running WordPress 5.0 or higher, PHP 7.4 or higher, and MySQL 8 or higher.</p>
+                                    <br>
+                                    <p style="font-weight: 600;">Recommended PHP Configuration Limits</p>
+                                    
+                                    <p><code>max_execution_time 180</code></p>
+                                    <p><code>memory_limit 128M</code></p>
+                                    <p><code>post_max_size 32M</code></p>
+                                    <p><code>upload_max_filesize 32M</code></p>
+
+                                </div>
+                                <div class="tab-pane" id="tab2">
+                                    
+                                    <h1>Theme Installation</h1>
+                                    <!-- <p><strong>Important : </strong>When you download the theme, it will give you 2 choices. one is to download the full zip which you will need to extract to locate the theme and the other one is just the installable WordPress file only. Please make sure you are uploading only minfolio.zip if you have downloaded full zip.</p> -->
+                                    <br>
+                                    <img style="max-width: 100%" src="images/theme-installation.png" alt='' class="margin-top-10"> 
+                                    <br><br><br>
+                                    <h2>Theme installation via WordPress</h2>
+                                    <ol>
+                                        <li>Log into your WordPress Dashboard and browse to <code>Appearance</code> &gt; <code>Themes</code>.</li>
+                                        <li>Click <code>Add new</code> button, located at the top of the screen or <code>Add new theme</code>.</li>
+                                        <li>Click on <code>Upload Theme</code> button at the top of the screen and click on <code>Choose File</code>, locate <code>minfolio.zip</code>.</li>
+                                        <li>Click on <code>Install Now</code> button.</li>
+                                        <li>Click on <code>Activate</code>link.</li>
+                                        <li>After the theme is activated,  the notice will appear  “This Theme requires the following plugins...”, click <code>Begin installing plugins</code>.</li>
+                                    </ol>
+                                    <hr>
+                                    <h2>Theme installation via FTP</h2>
+                                    <ol>
+                                        <li>Log into your site via FTP and browse to your folder located at <code>wp-content/themes</code>.</li>
+                                        <li>Unzip the <code>minfolio.zip</code> file you downloaded  and upload to the server in folder located at <code>wp-content/themes</code>.</li>
+                                        <li>Next log into your WordPress site and navigate to <code>Appearance</code> &gt; <code>Themes</code>.</li>
+                                        <li>Click on <code>Activate</code>link.</li>
+                                        <li>After the theme is activated,  the notice will appear  “This Theme requires the following plugins...”, click <code>Begin installing plugins</code>.</li>
+                                    </ol>
+                                    <hr>
+                                    <h2>Theme installation errors</h2>
+                                    <p class="well well-sm theme-err"><code>Are you sure you want to do this?</code></p>
+                                    <p>Above error typically happens in the senarios given below.</p>
+                                    <ul>
+                                        <li>You are trying to upload the Full zip file and not just the minfolio.zip.</li>
+                                        <li>Your server <a href="http://codex.WordPress.org/Editing_wp-config.php#Increasing_memory_allocated_to_PHP">memory limit to PHP is too low. </a></li>
+                                        <li>Your upload limit isn’t large enough and you must update your PHP.INI file to increase the upload_max_filesize value or contact your webhost to fix it.</li>
+                                    </ul>
+                                    <hr>
+                                    <p class="well well-sm theme-err"><code>The package could not be installed. The theme is missing the style.css stylesheet.</code></p>
+                                    <p>Above happens when you try to upload the Full zip that includes documentation, demo content... etc. Please make sure you are uploading only minfolio.zip.</p>
+                                </div>
+                                <div class="tab-pane" id="tab3">
+                                    <h1>Demo Import</h1>
+                                    <ol>
+                                        <li>Open WordPress Dashboard.</li>
+                                        <li>Go to <code>Appearance</code> &gt; <code>Import Demo Data.</code></li>
+                                        <li>Click on <code>Import Demo Data</code>and wait until you see the message "That's it, all done!".</li>
+
+                                    </ol>
+                                    <p><strong>Note : </strong>Dont's close or navigation away from the browser while the import is in process.</p>
+                                    <br>
+                                    <img src="images/demo-import.png" alt='' class="margin-top-10"> 
+                                </div>
+                                <div class="tab-pane" id="tab4">
+                                    <h1>Theme Updates</h1>
+                                    <p>Updating the theme via WordPress is very similar to the installation process via WordPress.</p>
+                                    <br>
+                                    <h2>Theme installation via WordPress</h2>
+                                    <ol>
+                                        <li>Go to WordPress Dashboard.</li>
+                                        <li>Go to <code>Appearance</code> &gt; <code>Themes</code>.</li>
+                                        <li>Deactivate Minfolio Theme by simply activating a different theme.</li>
+                                        <li>Once you activate a different theme, you can delete the Minfolio Theme(This won’t delete your content).</li>
+                                        <li>Now install the latest downloaded version of the theme(See Theme Installation via WordPress).</li>
+                                    </ol>
+                                    <hr/>
+                                    <h2>Theme installation via FTP</h2>
+                                    <ol>
+                                        <li>Log into your site via FTP and browse to your folder located at <code>wp-content/themes</code>.</li>
+                                        <li>Delete minfolio folder (This won’t delete your content).</li>
+                                        <li>Download the latest version  and unzip the <code>minfolio.zip</code> file and upload to the server in folder located at <code>wp-content/themes</code> (You can simply drag and drop the folder).</li>                                        
+                                        <li>Next log into your WordPress site and navigate to <code>Appearance</code> &gt; <code>Themes</code> to activate Minfolio.</li>
+                                    </ol>
+
+                                    <br/>
+                                    <p><strong>Note : </strong>Remember to clear your browser cache after each update.</p>
+                                </div>
+                                <div class="tab-pane" id="tab5">
+
+                                    <h1>Customize</h1>
+                                    <p>Minfolio comes with advaced options where you can customize theme styles. </p>
+                                    <ol>
+                                        <li><strong>General</strong> - Lazy Load, Javascript Minification etc</li>
+                                        <li><strong>Branding</strong> - Site Logo</li>
+                                        <li><strong>Menu</strong> - Menu Style, Menu Layout,Typography, Colors etc</li>
+                                        <li><strong>Blog</strong> - Labels, Social Share, Typography, Colors etc </li>
+                                        <li><strong>Portfolio</strong> - Settings, Labels, Social Share, Typography, Colors etc </li>
+                                        <li><strong>Page 404</strong> - Title, Description</li>
+                                        <li><strong>Footer</strong> - Layout, Typography, Colors etc</li>
+                                    </ol>
+                                    <img style="max-width: 100%" src="images/theme-options.png" alt='' class="margin-top-10"> 
+                                    <br><br><br>
+
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="tab-pane" id="tab6">
+                                    <h1>Page & Page Builder</h1>
+                                    
+                                    <h2>Create a new page</h2>
+                                    
+                                    <ol>
+                                        <li>Navigate to Pages in your admin sidebar and click <code>Add New</code> option.</li>
+                                        <li>Enter a new name for your page and add the content. Publish the page.</li>
+                                    </ol>
+                                                                        <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/new-page.png" alt="" class="margin-top-10">
+                                    <hr>
+                                    <h2 style="font-size: 20px; font-weight: 400;"><strong>Elementor Page Builder</strong> has been used to build pages in the theme. Click on the link for the documentation <a href="https://elementor.com/getting-started/" target="_blank" style="color:#03a696;"><strong >documentation.</strong></a></h2>
+                                    <br>
+                                    
+                                    <p>Elementor settings can customized in 'Dashboard > Elementor > Settings'.</p>
+									
+                                    <p>Enable 'Elementor Page Builder' to use in portfolio post by checking the 'Portfolio Items'.</p>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/elementor-settings.png" alt="" class="margin-top-10">
+                                    <br><hr>
+                                    <h2>Use Elementor to Build Page</h2>
+                                    <ol>
+                                        <li>Choose <code>Edit with Elementor</code> to edit your page</li>
+                                        <li>Choose elements you want to add to your new page in the element box and start editing them.</li>
+                                    </ol>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/elementor-page.png" alt="" class="margin-top-10">
+                                    <br><br><br><br>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/elementor-page-1.png" alt="" class="margin-top-10">
+                                </div>
+                                <div class="tab-pane" id="tab7">
+                                    <h1>Homepage / Postpage Setup</h1>
+                                    <ol>
+                                        <li>Go to <code>Settings &gt; Reading</code> in your WordPress Dashboard.</li>
+                                        <li>Set "Home/Index page displays" to a "Static Page".</li>
+                                        <li>In the Homepage drop down menu choose your home page. (Note – Pages will only be available in the dropdown if they have been created).</li>
+                                        <li>In the Blog page drop down menu choose your blog page.</li>
+                                        <li>Click on <code>Save changes</code> button</li>
+                                    </ol>
+                                    <img src="images/page-setup.jpg" alt='' class='margin-top-10'>
+                                </div>
+                                <div class="tab-pane " id="tab8">
+                                    <h1>Menu</h1>
+                                    
+                                    <h2>Menu setup</h2>
+                                    <ol>
+                                        <li>In WordPress Dashboard go to <code>Appearance &gt; Menus</code>.</li>
+                                        <li>Click on <code>create a new menu</code>link.</li>
+                                        <li>Enter menu name in Menu Name text field.</li>
+                                        <li>Click the <code>Create Menu</code> button.</li>
+                                        <li>Under Menu Settings check the box Main Menu against Display Location.</li>
+                                        <li>Click on <code>Custom Links</code> and add appropriate URL and Link Text</li>
+                                        <li>Click on <code>Add to Menu</code> button.</li>
+                                        <li>Once the menu links are added, it will appear on the right side under Menu Structure and can be customized, reordered.</li>    
+                                    </ol>
+                                    <br>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/create-menu.png" alt="" class="margin-top-10">                                  
+                                    
+                                    <hr>
+                                    <h2>Menu Customisation</h2>
+                                    <ol>
+                                        <li>In WordPress Dashboard go to <code>Appearance &gt; Customize > menu</code>.</li>
+                                        <li>Under 'Menu settings' you can make required customisations.</li>    
+                                        <li>Click on <code>Save</code> button.</li>
+                                    </ol>
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="tab-pane " id="tab9">
+                                    <h1>Portfolio Posts</h1>
+                                    <p><strong>Note:-</strong>Enable 'Elementor Page Builder' to use in portfolio post. 'Dashboard > Elementor > Settings > General > Post Types > Portfolio Items'</p>
+                                    <h2>Create a portfolio post for page project.</h2>
+                                    <ol>
+                                        <li>In your WordPress Dashboard, go to <code>Portfolio Items &gt; Add New Item</code>.</li>
+                                        <li>Enter Portfolio Item Title.</li>
+                                        <li>Under Portfolio Thumbnail in <code>Title</code>, enter appropriate title.</li>
+                                        <li>Under Portfolio Thumbnail in <code>Subtitle</code>, enter appropriate subtitle.</li>
+                                        <li>Under Portfolio Settings in <code>Project type</code> choose preferred Project.</li>
+                                                         
+                                        <li>In <code>"External Project"</code> you can add preferred external URL.</li>
+                                        <li>You can specify where to open the link.</li>
+                                        
+                                        <li>Enter appropriate title & value for metas.</li>
+                                        <li>Under Portfolio Metas in <code>Social media share,</code> check to enable social media share in portfolio page.</li>
+                                        <li>Now click on <code>Publish</code>button</li>
+                                    </ol>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/portfolio-page.png" alt="" class="margin-top-10">                    
+                                    <hr>
+                                     <h2>Adding portfolio section in a page</h2>
+                                    <ol>
+                                        <li>Go to page where you want to add portfolio section and <code>Edit with Elementor</code></li>
+                                        <li>Drag  <code>Portfolio Section</code>from Elementor left panel and drop on the page</li>
+                                    </ol>
+                                    <hr>
+                                    <h2>Create a portfolio category</h2>
+                                    <ol>
+                                        <li>In your WordPress Dashboard, go to <code>Portfolio Items &gt; Portfolio Categories</code>.</li>
+                                        <li>Enter the category name in the textfield below name (This name will be displayed in portfolio filter on the site).</li>
+                                        <li>Click on <code>Add New Portfolio Category</code> button.</li>
+                                        <li>You can also create a new category from the portfolio page itself by clicking on <code>Add New Portfolio Category</code> link.</li>
+                                    </ol>
+                                    <hr>
+                                    <h2>Sort a portfolio post</h2>
+                                    <ol>
+                                        <li>In your WordPress Dashboard, go to <code>Portfolio Items</code> &gt; <code>Sort Portfolio</code>.</li>
+                                        <li>Rearrange the order to sort the portfolio post simply by drag &amp; drop.</li>
+                                    </ol>
+
+                                </div>
+                                <div class="tab-pane" id="tab10">
+                                    <h1>Blog Posts</h1>
+                                    
+                                    <h2>Create a blog post</h2>
+                                    <ol>
+                                        <li>In your WordPress Dashboard, go to <code>Posts &gt; Add New</code>.</li>
+                                        <li>Enter Post title and Post content.</li>
+                                        <li>Enter Excerpt if required.</li>
+                                        <li>Choose appropriate post format on the right side under Format pane. Select image for image post, Video for video post etc. Based on your selection you will see additional fields, gallery will display drop zone to drop multiple images, video  will display text field for the URL.</li>
+                                        <li>Choose appropriate Category and Tags. New Categories can be added by clicking <code>Add New Category</code> link.</li>
+                                        <li>Click <code>Set featured image</code> link for post image.</li>
+                                        <li>Click <code>Publish</code> button.</li>
+                                    </ol>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/post-page.png" alt="" class="margin-top-10">              
+                                    <hr>
+                                    <h2>Create blog post category</h2>
+                                    <ol>
+                                        <li>In your WordPress Dashboard, go to <code>Posts &gt; Categories</code>.</li>
+                                        <li>Enter the category name in the textfield below name.</li>
+                                        <li>Click on <code>Add New Category</code>.</li>
+                                        <li>You can also create a new category from the blog page itself by clicking on <code>Add New Category</code> button.</li>
+                                    </ol>
+                                </div>
+                                <div class="tab-pane" id="tab11">
+                                    <h1>Contact Form</h1>
+                                    <p>we have created contact forms using contact form 7 plugin in this Theme. Below are the steps to create contact form.</p>
+                                    
+                                    <h2>Create new contact form</h2>
+                                    <ol>
+                                        <li>In your WordPress Dashboard, go to <code>Contact &gt; Add New</code>.</li>
+                                        <li>Enter the form name.</li>
+                                        <li>Click on <code>Mail</code> tab and enter the required information.</li>
+                                        <li>Click on <code>Save</code> button.</li>
+                                    </ol>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/contact-form.png" alt="" class="margin-top-10">              
+                                    <hr>
+                                    <h2>Adding contact form in a page</h2>
+                                    <ol>
+                                        <li>Go to page where you want to add contact form and <code>Edit with Elementor</code></li>
+                                        <li>Drag  <code>Contact Form 7</code>from Elementor left panel and drop on the page</li>
+                                        <li>Select the Contact form on the left panel and update the changes.</li>
+                                    </ol>
+                                    
+                                    <br><br>
+                                    <hr>
+                                    <h2>Selecting theme contact form</h2>
+                                    <p>After the demo import is done, edit the contact page using the elementor. Select 'Agency Contact Form' from the dropdown and update the changes.</p>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/contact-form-selection.png" alt="" class="margin-top-10">              
+                                    
+                                </div>
+                                
+                                
+                                <div class="tab-pane" id="tab13" style="display:none;">
+                                    <h1>Footer</h1>
+                                    
+                                        <h2>Footer Settings</h2>
+                                    
+                                        <ol>
+                                            <li>In WordPress Dashboard go to <code>Appearance</code> &gt; <code>Customize</code> &gt; <code>Footer.</code></li>
+                                            <li>Background color can be set.</li>
+                                            <li>Icon color can be set.</li>
+                                            
+                                            <li>Textarea for copyright text.</li>
+                                            <li>Enable/Disable social link in footer.</li>
+
+                                        </ol>
+                                        <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/footer.png" alt="" class="margin-top-10">              
+
+
+                                </div>
+                                <div class="tab-pane" id="tab14">
+                                    <h1>Plugin Installation</h1>
+                                    <p>After activating the theme, you will see the notice,  “This Theme recommends the following plugins...”,Click Begin installing plugins.</p>
+                                        <img style="max-width: 100%" src="images/plugin-installation.png" alt='' class="margin-top-10"> 
+                                        <br><br><br>
+                                        <h2>Required plugins for the theme.</h2>
+                                        <p>Minfolio Core - The core plugin for the theme.<br>Elementor - Drag & Drop page builder.<br>
+
+                                            One Click Demo Import - To import the demo data.<br>
+
+                                            Contact Form 7 - Used to created contact form in the theme.<br>
+											Safe SVG	
+                                            
+
+                                        </p>    
+
+
+                                </div>
+                                <div class="tab-pane" id="tab15">
+                                    <h1>3rd Party Plugin Installation</h1>
+                                    <ol>
+                                        <li>Open WordPress Dashboard.</li>
+                                        <li>Go to <code>Plugins</code> &gt; <code>Add New</code></li>
+                                        <li>Now you can either upload a plugin by clicking on <code>Upload Plugin</code>or can  search them in <code>Search plugins..</code>field </li>   
+                                        
+                                    </ol>
+                                        <img style="max-width: 100%" src="images/3rd-party-plugin.png" alt='' class="margin-top-10"> 
+                                        
+
+
+                                </div>
+                                <div class="tab-pane " id="tab16">
+                                    <h1>Shortcodes</h1>
+                                    <p>We have created some custom shortcodes for the theme.</p>   
+                                    <ol>
+                                        <li>Edit the page using the page builder</li>
+                                        <li>Navigate to <code>Minfolio Elements</code> on the left panel.</li>
+                                        <li>Drag & Drop the shortcode you want to use.</li>
+                                    </ol>
+                                    <br>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/shortcodes.png" alt="" class="margin-top-10">                                  
+                         
+                                    
+                                    
+                                </div>
+								<div class="tab-pane " id="tab12">
+                                    <h1>Color Customization</h1>
+                                    <p>We have created a color palette using the Elementor's Global Colors.</p>   
+                                    <ol>
+                                        <li>Edit the page using the page builder</li>
+                                        <li>Click on Hamburger menu at the top left panel.</li>
+										<li>Click on 'Site Settings' and then 'Global Colors'.</li>
+                                        <li>Choose the colors and update the changes.</li>
+                                    </ol>
+									<br>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/color-customization-1.png" alt="" class="margin-top-10">                                  
+                                    <br><br><br>
+                                    <img style="max-width: 100%; border:1px solid rgba(0,0,0,.1)" src="images/color-customization.png" alt="" class="margin-top-10">                                  
+                         
+                                    
+                                    
+                                </div>
+                            </div>
+                            <!-- Tab Content / -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jqueryui.js"></script>
+        <script src="js/main.js"></script>
+
+
+    </body>
+</html>
